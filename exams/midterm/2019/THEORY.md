@@ -76,7 +76,7 @@ public interface WeatherService {
 
 What is true of this abstraction?
 
-- [ ] It is a good abstraction
+- [x] It is a good abstraction
 - [ ] It is not a good abstraction because it exposes implementation details
 - [ ] It is not a good abstraction because it is missing necessary methods
 - [ ] It is not a good abstraction because the method takes too many parameters
@@ -90,7 +90,7 @@ Which of the messages below are acceptable commit messages?
 
 - [ ] Fix several bugs
 - [ ] Couldn't have a green button at the bottom of the login page
-- [ ] Fix a NullPointerException at login (fixes #45)
+- [x] Fix a NullPointerException at login (fixes #45)
 - [ ] Implement upload to OpenStack containers
 
 
@@ -131,10 +131,10 @@ What is true about TDD (Test-driven development)?
 
 - [ ] TDD makes it easier to distribute tasks in a team
 - [ ] Bugs cannot occur in software developed using TDD
-- [ ] With TDD, you find bugs very early in the development cycle
+- [x] With TDD, you find bugs very early in the development cycle
 - [ ] TDD only requires writing the tests, and not the actual implementation
 - [ ] In TDD, one first writes the implementation and then writes tests
-- [ ] In TDD, one first writes the tests and then writes the implementation
+- [x] In TDD, one first writes the tests and then writes the implementation
 
 ---
 
@@ -154,7 +154,7 @@ a217948 Add share features tests
 ```
 
 - [ ] The team should use TDD to improve their workflow
-- [ ] The team seems to use TDD in their workflow
+- [x] The team seems to use TDD in their workflow
 - [ ] Commit messages for `4df7d10` and `11e9ea2` are both good commit messages
 - [ ] Commit messages for `5d7193b` and `eee0221` are both bad commit messages
 - [ ] Commit messages for `a217948` and `0b6440e` are both good commit messages
@@ -195,7 +195,7 @@ What coverage does this test achieve on this method?
 - [ ] 100% line coverage, 100% branch coverage
 - [ ] 100% line coverage, 50% branch coverage
 - [ ] 66% line coverage, 100% branch coverage
-- [ ] 66% line coverage, 50% branch coverage
+- [x] 66% line coverage, 50% branch coverage
 - [ ] 33% line coverage, 100% branch coverage
 - [ ] 33% line coverage, 50% branch coverage
 
@@ -227,7 +227,7 @@ The `testSum` test passes. What can you say?
 
 - [ ] `sum` has no bug, but the test is inadequate because it doesn't cover all important cases, so it could leave bugs undiscovered if run against some other implementations
 - [ ] `sum` has a bug, but the test covers all relevant cases, so it's a bug that cannot be found via unit testing
-- [ ] `sum` has a bug, and it could have been uncovered with additional test cases
+- [x] `sum` has a bug, and it could have been uncovered with additional test cases
 - [ ] `sum` has no bug, and the test covers all relevant cases
 
 (By "relevant cases", we mean test cases with interesting values. As you know, it is intractable to test all the possible values of this method. However, with a few carefully picked "relevant cases", that are more susceptible to cause bugs, one has a better chance of uncovering bugs.)
